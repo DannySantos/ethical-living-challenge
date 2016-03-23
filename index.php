@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <title>Ethical Living Challenge</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <div class="container-fluid full-wrapper text-center">
-        <header>
-            <div class="row">
-                <div class="col-sm-5 col-sm-offset-1 pull-left text-left">
-                    <h1 class="text-hide">
-                        <img src="images/logo.png" alt="Ethical Living Challenge Logo">
-                        Ethical Living Challenge
-                    </h1>
-                </div>
-
-                <nav class="navbar col-sm-6">
-                    <div class="navbar-header pull-right">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
-                            <span class="glyphicon glyphicon-align-justify"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse pull-right" id="collapsemenu">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#" class="btn btn-pop">Sign up!</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        
-            
-            <img src="images/header-bg-curve.png" alt="Header Style" class="full-width">
-        </header>
+<?php include 'header.php' ?>
 
         <div class="row">
             <h2>Welcome to the<br>Ethical Living Challenge!</h2>
@@ -55,7 +15,7 @@
         
         <div class="row bg-divider top-margin">
             <div class="col-sm-10 col-sm-offset-1">
-                <p class="large-text">"Every time you spend money, you're casting a vote for the kind of world you want."</p>
+                <p class="large-text"><em>"Every time you spend money, you're casting a vote for the kind of world you want."</em></p>
                 <p>-Anna Lapp&eacute;</p>
             </div>
         </div>
@@ -116,7 +76,11 @@
         </div>
         
         <div class="row">
-            <h2>Info Section</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2>&lt;Info Section&gt;</h2>
+
+                <p style="font-size: 1.5em;">Need some content to go here. Maybe something that explains more about the challenge but preferably not just text based. If you can split it into icons or make it visual in some way that would be great. Alternatively this could be something more to do with inspiring people to take the challenge, maybe something outlining the problem? It's open to ideas anyway.</p>
+            </div>
         </div>
         
         <div class="row">
@@ -134,12 +98,22 @@
                         "Ethical Switch is proud to sponsor the Ethical Living Challenge. Our mission is to empower consumers to swap their daily spending to better options without unnecessary hassle and cost.  We have partnered with the Ethical Living Challenge because we believe that the world may be changed with simple decisions about what is fair and right for the products that we buy."
                         <footer>Tamlyn Rudolph, Executive Director, Ethical Switch</footer>
                         </blockquote>
+                        
+                        <blockquote>
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus autem maxime, sunt, magnam optio officiis quia explicabo eaque illum alias quam itaque. Saepe in tenetur perferendis autem, est corrupti, similique!"
+                        <footer>Some Person, Some Job, Some Company</footer>
+                        </blockquote>
                     </div>
 
                     <div class="col-sm-6">
                         <blockquote>
                         "Child, slave and sweatshop labour are all too real in 2015... and nothing is going to change as long as we all continue to shop and consume blindly. The Ethical Living Challenge is a brilliant idea because it encourages people to consume according to their values... much easier said than done!"
                         <footer>Nick Savaidis, Founder, Etiko</footer>
+                        </blockquote>
+                        
+                        <blockquote>
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus autem maxime, sunt, magnam optio officiis quia explicabo eaque illum alias quam itaque. Saepe in tenetur perferendis autem, est corrupti, similique! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit quis, dolores voluptatum ex, quo corrupti necessitatibus. Quasi natus tempora, quas dolorem reiciendis asperiores magnam incidunt, adipisci autem saepe maxime."
+                        <footer>Some Person, Some Job, Some Company</footer>
                         </blockquote>
                     </div>
                 </div>
@@ -177,13 +151,4 @@
             </div>   
         </div>
         
-        <footer class="row main-footer">
-            <img src="images/logo.png" alt="Ethical Living Challenge Logo">
-        </footer>
-    </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>
