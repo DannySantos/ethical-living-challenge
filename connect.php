@@ -10,7 +10,9 @@
 	 
     <p>We're always searching for ambassadors around the world for ELC. An ambassador is someone who engages and inspires people in their local area to take part in the challenge and join the ethical living movement. This involves encouraging and talking to people who are also doing the challenge, and also engaging the wider community - talking to local papers and other media outlets, contacting schools and universities, writing blog posts and trying to spread the world about the challenge and about ethical living. Ambassadors will be guided through the process and provided with resources along the way. Positions are open to anybody around the world of any age. Follow the link below to answer a few questions and then we'll get in touch regarding the outcome of your application. Make sure you've signed up to the actual challenge, too!</p>
 
-    <a href="connect" class="btn btn-info" target="_blank">Apply to be an Ambassador</a>
+    <p>To apply to be an ambassador please contact Emma on emma@ethicallivingchallenge.com</p>
+
+<!--    <a href="connect" class="btn btn-info" target="_blank">Apply to be an Ambassador</a>-->
 
 	  <h3>Businesses</h3>
 

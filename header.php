@@ -12,7 +12,7 @@
   <div class="container-fluid full-wrapper text-center">
     <header>
       <div class="row">
-        <div class="col-sm-5 col-sm-offset-1 pull-left text-left">
+        <div class="col-sm-3 col-sm-offset-1 pull-left text-left">
           <h1 class="text-hide">
             <a href="index">
               <img src="images/logo.png" alt="Ethical Living Challenge Logo">
@@ -21,7 +21,7 @@
           </h1>
         </div>
 
-        <nav class="navbar col-sm-6">
+        <nav class="navbar col-sm-8">
           <div class="navbar-header pull-right">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
               <span class="glyphicon glyphicon-align-justify"></span>
