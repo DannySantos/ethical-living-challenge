@@ -6,7 +6,7 @@
             <div class="col-sm-3 col-sm-offset-1">
                 <h3>About Ethical Living Challenge</h3>
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi porro culpa iure distinctio amet sequi dolores veniam. Commodi harum perspiciatis, cumque. Eum earum enim nam tempore officiis, culpa rerum sed? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis placeat consequuntur cupiditate, fugit harum vero debitis dolor nam aut, non, quis nihil, nemo. Modi, nostrum adipisci. Ratione facere culpa voluptatum.</p>
+                <p>A free 21-day online challenge to live more ethically. Learn, engage and act with daily information, challenges and resources sent directly to your inbox.</p>
             </div>
             
             <div class="col-sm-3 col-sm-offset-1">
@@ -14,15 +14,19 @@
                 
                 <form action="">
                     <div class="form-group">
-                        <input type="text" class="form-control">
+                        <input type="email" class="form-control" placeholder="Email...">
                     </div>
                     
                     <div class="form-group">
-                        <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                        <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Message..."></textarea>
                     </div>
                     
                     <input type="submit" value="Submit" class="btn btn-pop">
                 </form>
+                
+                <h3>Email:</h3>
+                
+                <p class="single-line"><span class="glyphicon glyphicon-envelope"></span> emma@ethicallivingchallenge.com</p>
             </div>           
         </footer>
     </div>
